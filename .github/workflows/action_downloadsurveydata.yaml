@@ -3,8 +3,8 @@ on:
     branches: main
 
 on:
-  push:
-  -  cron: '*/3 * * * *'
+  schedule:
+    - cron: '*/3 * * * *'
 
 jobs:
   import-data:
