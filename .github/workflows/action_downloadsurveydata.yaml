@@ -2,6 +2,10 @@ on:
   push:
     branches: main
 
+on:
+  push:
+  -  cron: '*/3 * * * *'
+
 jobs:
   import-data:
     runs-on: ubuntu-latest
