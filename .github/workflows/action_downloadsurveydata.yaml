@@ -1,8 +1,6 @@
-
-
 on:
   schedule:
-    - cron: '*/3 * * * *'
+     cron: '*/3 * * * *'
 
 jobs:
   import-data:
